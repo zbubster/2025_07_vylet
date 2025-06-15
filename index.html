@@ -2,20 +2,62 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8">
-  <title>Zobrazení PDF</title>
+  <title>Vylet</title>
   <style>
     body {
-      margin: 0;
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: auto;
+      padding: 2em;
     }
-    iframe {
-      width: 100vw;
-      height: 100vh;
-      border: none;
+    .section {
+      margin-bottom: 3em;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 1em;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
   </style>
 </head>
 <body>
-  <iframe src="out.pdf"></iframe>
+
+  <h1>Vylet na jih 2025</h1>
+
+  <div class="section">
+    <div id="intro"></div>
+    <img src="pic/wanna_up.png" alt="Wanna Up?">
+  </div>
+
+  <div class="section">
+    <div id="text2"></div>
+    <img src="obrazek2.jpg" alt="Obrázek 2">
+  </div>
+
+  <div class="section">
+    <div id="text3"></div>
+    <img src="obrazek3.jpg" alt="Obrázek 3">
+  </div>
+
+  <script>
+    function loadText(id, file) {
+      fetch(file)
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById(id).innerText = data;
+        })
+        .catch(error => {
+          document.getElementById(id).innerText = "Nepodařilo se načíst text.";
+          console.error("Chyba při načítání souboru:", file, error);
+        });
+    }
+
+    loadText("intro", "text/intro.txt");
+    loadText("text2", "text/popis1.txt");
+    loadText("text3", "text/zaver.txt");
+  </script>
+
 </body>
 </html>
 
