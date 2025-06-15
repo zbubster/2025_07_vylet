@@ -29,6 +29,10 @@
       width: 100%;
       margin-bottom: 1em;
     }
+    .leaflet-popup-content {
+      font-size: 1.2em;
+      line-height: 1.4;
+    }
     #map-toggle {
       padding: 0.5em 1em;
       margin-bottom: 2em;
@@ -134,8 +138,8 @@
           onEachFeature: function (feature, layer) {
             if (feature.properties) {
               let popupContent = `
-                <strong>${feature.properties.where_to || "Bez názvu"}</strong><br/>
-                ${feature.properties.when || "Žádný popis"}
+                <strong>${feature.properties.where_to || "kde to jsem??"}</strong><br/>
+                ${feature.properties.when || "kdy jsem??"}
               `;
               layer.bindPopup(popupContent);
             }
