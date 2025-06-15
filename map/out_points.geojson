@@ -3,6 +3,8 @@
 "name": "out_points",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "id": 1, "where_to": "molo audace", "when": "pondelni posezeni s kafem" }, "geometry": { "type": "Point", "coordinates": [ 13.766265545225243, 45.652177527949306 ] } }
+{ "type": "Feature", "properties": { "where_to": "molo audace", "when": "pondelni posezeni s kafem" }, "geometry": { "type": "Point", "coordinates": [ 13.766265545225243, 45.652177527949306 ] } },
+{ "type": "Feature", "properties": { "where_to": "Risnjak", "when": "asi utery na celej den" }, "geometry": { "type": "Point", "coordinates": [ 14.621200227788355, 45.431926369276866 ] } },
+{ "type": "Feature", "properties": { "where_to": "Kongresnij trg", "when": "sileny turismus ve ctvrtek cestou zpatky" }, "geometry": { "type": "Point", "coordinates": [ 14.503809030469938, 46.050255295850882 ] } }
 ]
 }
