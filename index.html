@@ -19,6 +19,15 @@
       margin-top: 1em;
       box-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
+
+    <!-- Leaflet CSS & JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <style>
+      #map {
+        height: 90vh;
+        width: 100%;
+      }
   </style>
 </head>
 <body>
@@ -29,6 +38,10 @@
     <div id="intro"></div>
     <img src="pic/wanna_up.png" alt="Wanna Up?">
     <img src="pic/hidden_volvo.png" alt="Toto je Volvo">
+  </div>
+
+  <div class="section">
+    <div id="map"></div>
   </div>
 
   <div class="section">
@@ -82,6 +95,22 @@
     loadText("day6", "text/day6.txt");
     loadText("outro", "text/outro.txt");
   </script>
+    <script>
+      // Inicializace mapy
+      var map = L.map('map').setView([49.8, 15.5], 7); // uprav střed a zoom
+    
+      // OSM podklad
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OSM contributors'
+      }).addTo(map);
+    
+      // Načtení GeoJSON vrstvy
+      fetch('data/body.geojson')
+        .then(response => response.json())
+        .then(data => {
+          L.geoJSON(data).addTo(map);
+        });
+    </script>
 
 </body>
 </html>
