@@ -10,6 +10,7 @@
   <style>
     body {
       font-family: sans-serif;
+      font-size: 18px;
       max-width: 1000px;
       margin: auto;
       padding: 2em;
@@ -25,7 +26,14 @@
     }
     #map {
       height: 90vh;
-      width: 70%;
+      width: 100%;
+      margin-bottom: 1em;
+    }
+    #map-toggle {
+      padding: 0.5em 1em;
+      margin-bottom: 2em;
+      cursor: pointer;
+      font-size: 1em;
     }
   </style>
 
@@ -43,6 +51,7 @@
   </div>
 
   <div class="section">
+    <button id="map-toggle">Aktivovat mapu pro pohyb</button>
     <div id="map"></div>
   </div>
 
@@ -97,15 +106,26 @@
     loadText("day6", "text/day6.txt");
     loadText("outro", "text/outro.txt");
   </script>
+
   <script>
-    // Inicializace mapy
-    var map = L.map('map').setView([45.55, 14.11], 10);
-  
+    // Inicializace mapy s vypnutou interaktivitou
+    var map = L.map('map', {
+      center: [45.55, 14.11],
+      zoom: 10,
+      dragging: false,
+      touchZoom: false,
+      scrollWheelZoom: false,
+      doubleClickZoom: false,
+      boxZoom: false,
+      keyboard: false,
+      tap: false
+    });
+
     // OSM podklad
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OSM contributors'
     }).addTo(map);
-  
+
     // Načtení GeoJSON vrstvy
     fetch('map/out_points.geojson')
       .then(response => response.json())
@@ -125,6 +145,32 @@
       .catch(error => {
         console.error("Chyba při načítání GeoJSON vrstvy:", error);
       });
+
+    // Přepínání interaktivity
+    let mapActive = false;
+    const toggleBtn = document.getElementById("map-toggle");
+
+    toggleBtn.addEventListener("click", () => {
+      mapActive = !mapActive;
+
+      if (mapActive) {
+        map.dragging.enable();
+        map.touchZoom.enable();
+        map.scrollWheelZoom.enable();
+        map.doubleClickZoom.enable();
+        map.boxZoom.enable();
+        map.keyboard.enable();
+        toggleBtn.textContent = "Deaktivovat pohyb mapy";
+      } else {
+        map.dragging.disable();
+        map.touchZoom.disable();
+        map.scrollWheelZoom.disable();
+        map.doubleClickZoom.disable();
+        map.boxZoom.disable();
+        map.keyboard.disable();
+        toggleBtn.textContent = "Aktivovat mapu pro pohyb";
+      }
+    });
   </script>
 
 </body>
