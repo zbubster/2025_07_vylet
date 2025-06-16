@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
 
-  <title>Vylet</title>
+  <title>Vylet na jih</title>
 
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
@@ -48,9 +48,9 @@
 </head>
 <body>
 
-  <h1>Vylet na jih 2025</h1>
+  <h1>Výlet na jih 2025</h1>
 
-  <div id="content">Loudink...</div>
+  <div id="txt">Loudink...</div>
 
   <div class="section">
     <img src="pic/wanna_up.jpg" alt="Wanna Up?">
@@ -93,10 +93,10 @@
     fetch('text/main.md')
       .then(response => response.text())
       .then(text => {
-        document.getElementById('content').innerHTML = marked.parse(text);
+        document.getElementById('txt').innerHTML = marked.parse(text);
       })
       .catch(error => {
-        document.getElementById('content').innerHTML = "Nepodařilo se načíst soubor.";
+        document.getElementById('txt').innerHTML = "Nepodařilo se načíst soubor.";
         console.error("Chyba při načítání Markdownu:", error);
       });
   </script>
