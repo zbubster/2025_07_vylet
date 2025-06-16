@@ -2,10 +2,15 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8">
+
   <title>Vylet</title>
 
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- Markdown -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
   <style>
     body {
@@ -40,15 +45,12 @@
       font-size: 1em;
     }
   </style>
-
-  <!-- Leaflet JS -->
-  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </head>
 <body>
 
   <h1>Vylet na jih 2025</h1>
 
-  <div id="main"></div>
+  <div id="content">Loudink...</div>
 
   <div class="section">
     <img src="pic/wanna_up.jpg" alt="Wanna Up?">
@@ -77,16 +79,17 @@
     marginwidth="0">Načítání…
   </iframe>
 
-
   <script>
     fetch('text/main.md')
       .then(response => response.text())
       .then(text => {
-        document.getElementById('main').innerHTML = marked.parse(text);
+        document.getElementById('content').innerHTML = marked.parse(text);
+      })
+      .catch(error => {
+        document.getElementById('content').innerHTML = "Nepodařilo se načíst soubor.";
+        console.error("Chyba při načítání Markdownu:", error);
       });
   </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
   <script>
     // Inicializace mapy s vypnutou interaktivitou
