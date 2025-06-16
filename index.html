@@ -101,10 +101,10 @@
       fetch(file)
         .then(response => response.text())
         .then(data => {
-          document.getElementById(id).innerHTML = data;
+          document.getElementById(id).innerText = data;
         })
         .catch(error => {
-          document.getElementById(id).innerHTML = "Nepodařilo se načíst text.";
+          document.getElementById(id).innerText = "Nepodařilo se načíst text.";
           console.error("Chyba při načítání souboru:", file, error);
         });
     }
