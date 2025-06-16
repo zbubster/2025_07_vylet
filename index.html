@@ -48,44 +48,25 @@
 
   <h1>Vylet na jih 2025</h1>
 
+  <div id="main"></div>
+
   <div class="section">
-    <div id="intro"></div>
     <img src="pic/wanna_up.jpg" alt="Wanna Up?">
     <img src="pic/hidden_volvo.jpg" alt="Toto je Volvo">
+    <img src="pic/brutalism1.jpg" alt="Terst">
+    <img src="pic/brutalism2.jpg" alt="Terst">
+    <img src="pic/random_terst.jpg" alt="Terst">
+    <img src="pic/hills1.jpg" alt="Kopce" loading="lazy">
+    <img src="pic/hills2.jpg" alt="Kopce" loading="lazy">
+    <img src="pic/hills_billa.jpg" alt="Balkansky vylet" loading="lazy">
+    <img src="pic/lublan.jpg" alt="Lublan" loading="lazy">
+    <img src="pic/random_stan.jpg" alt="Snad se nam podari spat i takhle" loading="lazy">
+    <img src="pic/snemovej_ohen.jpg" alt="Snem Kruhu" loading="lazy">
   </div>
 
   <div class="section">
     <button id="map-toggle">Aktivovat mapu pro pohyb</button>
     <div id="map"></div>
-  </div>
-
-  <div class="section">
-    <div id="day1"></div>
-    <img src="pic/brutalism1.jpg" alt="Terst">
-    <img src="pic/brutalism2.jpg" alt="Terst">
-    <img src="pic/random_terst.jpg" alt="Terst">
-  </div>
-
-  <div class="section">
-    <div id="day2"></div>
-    <img src="pic/hills1.jpg" alt="Kopce" loading="lazy">
-    <img src="pic/hills2.jpg" alt="Kopce" loading="lazy">
-    <img src="pic/hills_billa.jpg" alt="Balkansky vylet" loading="lazy"> 
-  </div>
-
-  <div class="section">
-    <div id="day5"></div>
-    <img src="pic/lublan.jpg" alt="Lublan" loading="lazy">
-    <img src="pic/random_stan.jpg" alt="Snad se nam podari spat i takhle" loading="lazy">
-  </div>
-
-  <div class="section">
-    <div id="day6"></div>
-    <img src="pic/snemovej_ohen.jpg" alt="Snem Kruhu" loading="lazy">
-  </div>
-
-  <div class="section">
-    <div id="outro"></div>
   </div>
 
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScDnwOgNpA2iO8a0mnkXkuvXqJunrnEAsUGsWKXMK1xaHH3lQ/viewform?embedded=true"
@@ -96,28 +77,16 @@
     marginwidth="0">Načítání…
   </iframe>
 
-  <script>
-    function loadText(id, file) {
-      fetch(file)
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById(id).innerText = data;
-        })
-        .catch(error => {
-          document.getElementById(id).innerText = "Nepodařilo se načíst text.";
-          console.error("Chyba při načítání souboru:", file, error);
-        });
-    }
 
-    loadText("intro", "text/intro.txt");
-    loadText("day1", "text/day1.txt");
-    loadText("day2", "text/day2.txt");
-    loadText("day3", "text/day3.txt");
-    loadText("day4", "text/day4.txt");
-    loadText("day5", "text/day5.txt");
-    loadText("day6", "text/day6.txt");
-    loadText("outro", "text/outro.txt");
+  <script>
+    fetch('text/main.md')
+      .then(response => response.text())
+      .then(text => {
+        document.getElementById('main').innerHTML = marked.parse(text);
+      });
   </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
   <script>
     // Inicializace mapy s vypnutou interaktivitou
