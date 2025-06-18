@@ -53,20 +53,7 @@
   <div id="txt">Loudink...</div>
 
   <div class="section">
-    <img src="pic/wanna_up.jpg" alt="Wanna Up?">
-    <img src="pic/hidden_volvo.jpg" alt="Toto je Volvo">
-    <img src="pic/brutalism1.jpg" alt="Terst">
-    <img src="pic/brutalism2.jpg" alt="Terst">
-    <img src="pic/random_terst.jpg" alt="Terst">
-    <img src="pic/hills1.jpg" alt="Kopce" loading="lazy">
-    <img src="pic/hills2.jpg" alt="Kopce" loading="lazy">
-    <img src="pic/hills_billa.jpg" alt="Balkansky vylet" loading="lazy">
-    <img src="pic/lublan.jpg" alt="Lublan" loading="lazy">
-    <img src="pic/random_stan.jpg" alt="Snad se nam podari spat i takhle" loading="lazy">
-    <img src="pic/snemovej_ohen.jpg" alt="Snem Kruhu" loading="lazy">
-  </div>
-
-  <div class="section">
+    <h2 style="text-align: center; margin-bottom: 1rem;">Mapa</h2>
     <button id="map-toggle">Aktivovat mapu pro pohyb</button>
     <div id="map"></div>
   </div>
@@ -80,6 +67,39 @@
             allowfullscreen>
     </iframe>
   </div>
+
+  <section class="dalsi">
+    <h2 style="text-align: center; margin-bottom: 1rem;">Další výjevy</h2>
+  
+    <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; text-align: center;">
+  
+      <div style="flex: 1 1 200px; max-width: 250px;">
+        <img src="pic/wanna_up.jpg" alt="Wanna Up?" style="width: 100%;">
+        <p>Wanna Up?</p>
+      </div>
+  
+      <div style="flex: 1 1 200px; max-width: 250px;">
+        <img src="pic/hidden_volvo.jpg" alt="Toto je Volvo" style="width: 100%;">
+        <p>Toto je Volvo</p>
+      </div>
+  
+      <div style="flex: 1 1 200px; max-width: 250px;">
+        <img src="pic/brutalism2.jpg" alt="Terst" style="width: 100%;">
+        <p>Beton bude</p>
+      </div>
+  
+      <div style="flex: 1 1 200px; max-width: 250px;">
+        <img src="pic/hills2.jpg" alt="Kopce" style="width: 100%;" loading="lazy">
+        <p>Svahy Risnjaku</p>
+      </div>
+  
+      <div style="flex: 1 1 200px; max-width: 250px;">
+        <img src="pic/hills_billa.jpg" alt="Balkánský výlet" style="width: 100%;" loading="lazy">
+        <p>Tohle bohužel asi neuvidíme</p>
+      </div>
+  
+    </div>
+  </section>
 
   <script>
     fetch('text/main.md')
@@ -125,7 +145,7 @@
               `;
               layer.bindPopup(popupContent);
             }
-          }
+          } 
         }).addTo(map);
       })
       .catch(error => {
