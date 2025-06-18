@@ -38,6 +38,20 @@ Chtěl jsem dát dohromady rámcový plán červencového výletu. Zatím je v n
 
 v kontextu noční jízdy by bylo vhodné udělat pondělí jako den odpočinkový. plán je dojet ráno do Terstu, zkontrolovat kvalitu kafe v místních kavárnách, posedět na molu a chvíli pozorovat ropné tankery přivážející ropu z pouště do transalpského potrubí, čile nahrazující rozpadlá východní partnerství (čti závislost). procházka po historickém centru tohoto přístavního města bude doplněna návštěvou brutalistních staveb v severo-východní části města. grande! o odborný výklad se jistě postará architektonická sekce výpravy. navečer odjezd z města, opakované překročení státních hranic a dojezd do Chorvatska.
 
+<div style="display: flex; justify-content: space-between; gap: 1rem; text-align: center;">
+
+  <div style="flex: 1;">
+    <img src="pic/brutalism1.jpg" alt="Brutalismus" style="width: 100%;">
+    <p style="font-size: 0.9em; color: gray;">Brutalistní Rozzol Melara v Terstu</p>
+  </div>
+
+  <div style="flex: 1;">
+    <img src="pic/terst_piazza.jpg" alt="Piazza" style="width: 100%;">
+    <p style="font-size: 0.9em; color: gray;">Piazza Unità d'Italia</p>
+  </div>
+
+</div>
+
 ---
 
 ## Úterý až čtvrtek – Terén
