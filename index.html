@@ -122,7 +122,7 @@
 
   <div class="tab-content" id="tab-content-2">
     <h2>Kytky</h2>
-    <p>Zatím nic, ale budou tady fortky kytek co budem hledat v trave.</p>
+    <div id="ktky">Rostou...</div>
   </div>
 
   <script>
@@ -151,6 +151,37 @@
         document.getElementById('txt').innerHTML = "Nepodařilo se načíst soubor.";
         console.error("Chyba při načítání Markdownu:", error);
       });
+  </script>
+
+  <script>
+    const tabs = document.querySelectorAll('.tab');
+    const contents = document.querySelectorAll('.tab-content');
+  
+    let secondTabLoaded = false;
+  
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        contents.forEach(c => c.classList.remove('active'));
+  
+        tab.classList.add('active');
+        document.getElementById('tab-content-' + tab.dataset.tab).classList.add('active');
+  
+        // pokud jde o druhý panel, načti markdown
+        if (tab.dataset.tab === '2' && !secondTabLoaded) {
+          fetch('text/kytky.md')
+            .then(response => response.text())
+            .then(text => {
+              document.getElementById('ktky').innerHTML = marked.parse(text);
+              secondTabLoaded = true;
+            })
+            .catch(error => {
+              document.getElementById('ktky').innerHTML = "Nepodařilo se načíst soubor.";
+              console.error("Chyba při načítání Markdownu pro druhý panel:", error);
+            });
+        }
+      });
+    });
   </script>
 
   <script>
