@@ -11,7 +11,7 @@ rod hořců
 
 # G. tergestina
 
-<div style="display: flex; justify-content: space-between; gap: 1rem; text-align: center;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
     <img src="pic/kytky/gen_ter1.JPG" alt="G_tergestina" style="width: 100%;">
@@ -37,7 +37,7 @@ rod hořců
 
 # G. dinarica
 
-<div style="display: flex; justify-content: space-between; gap: 1rem; text-align: center;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
     <img src="pic/kytky/gen_din1.JPG" alt="G_dinarica" style="width: 100%;">
@@ -58,7 +58,7 @@ rod hořců
 
 # G. cruciata
 
-<div style="display: flex; justify-content: space-between; gap: 1rem; text-align: center;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
     <img src="pic/kytky/gen_cruc1.JPG" alt="G_cruciata" style="width: 100%;">
@@ -69,7 +69,7 @@ rod hořců
 
 # G. punctata
 
-<div style="display: flex; justify-content: space-between; gap: 1rem; text-align: center;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
     <img src="pic/kytky/gen_pun1.JPG" alt="G_punctata" style="width: 100%;">
@@ -98,7 +98,7 @@ rod zvonečníků
 
 Všimněte si podlouhlých listů na lodyze.
 
-<div style="display: flex; justify-content: space-between; gap: 1rem; text-align: center;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
     <img src="pic/kytky/phyt_orb1.JPG" alt="P_orb" style="width: 100%;">
@@ -111,7 +111,7 @@ Všimněte si podlouhlých listů na lodyze.
 
 Tlusťoučký (široký) listy!
 
-<div style="display: flex; justify-content: space-between; gap: 1rem; text-align: center;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
     <img src="pic/kytky/phyt_pse1.JPG" alt="P_pse" style="width: 100%;">
@@ -135,7 +135,7 @@ nikoli Prymula
 
 rod prvosenek
 
-<div style="display: flex; justify-content: space-between; gap: 1rem; text-align: center;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
     <img src="pic/kytky/prim_kit1.JPG" alt="P_kit" style="width: 100%;">
@@ -152,7 +152,7 @@ rod silenek
 
 # S. acaulis
 
-<div style="display: flex; justify-content: space-between; gap: 1rem; text-align: center;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
     <img src="pic/kytky/sil_aca1.JPG" alt="S_aca" style="width: 100%;">
@@ -174,7 +174,7 @@ rod lomikamenů
 
 # S. blavii
 
-<div style="display: flex; justify-content: space-between; gap: 1rem; text-align: center;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
     <img src="pic/kytky/sax_blav1.JPG" alt="S_blavii" style="width: 100%;">
@@ -197,7 +197,7 @@ rod lomikamenů
 
 Typicky na kamenných mořích.
 
-<div style="display: flex; justify-content: space-between; gap: 1rem; text-align: center;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
     <img src="pic/kytky/sax_glab1.JPG" alt="S_glabella" style="width: 100%;">
@@ -210,7 +210,7 @@ Typicky na kamenných mořích.
 
 Nejen vápenec! 
 
-<div style="display: flex; justify-content: space-between; gap: 1rem; text-align: center;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
     <img src="pic/kytky/sax_mos1.JPG" alt="S_moschata" style="width: 100%;">
@@ -226,7 +226,7 @@ Nejen vápenec!
 
 # S. oppositifolia
 
-<div style="display: flex; justify-content: space-between; gap: 1rem; text-align: center;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
     <img src="pic/kytky/sax_opo1.JPG" alt="S_oppositifolia" style="width: 100%;">
