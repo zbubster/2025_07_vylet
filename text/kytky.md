@@ -14,22 +14,22 @@ rod hořců
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
-    <img src="pic/kytky/gen_ter1.JPG" alt="G_tergestina" style="width: 100%;">
+    <img src="pic/kytky/gen_ter1.JPG" alt="G_tergestina" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Gentiana tergestina ‒ květ</p>
   </div>
 
   <div style="flex: 1;">
-    <img src="pic/kytky/gen_ter2.JPG" alt="G_tergestina" style="width: 100%;">
+    <img src="pic/kytky/gen_ter2.JPG" alt="G_tergestina" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Gentiana tergestina ‒ habitus</p>
   </div>
 
   <div style="flex: 1;">
-    <img src="pic/kytky/gen_ter4.JPG" alt="G_tergestina" style="width: 100%;">
+    <img src="pic/kytky/gen_ter4.JPG" alt="G_tergestina" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Gentiana tergestina ‒ habitus2</p>
   </div>
 
   <div style="flex: 1;">
-    <img src="pic/kytky/gen_ter5.JPG" alt="G_tergestina" style="width: 100%;">
+    <img src="pic/kytky/gen_ter5.JPG" alt="G_tergestina" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Gentiana tergestina ‒ ODKVETLÁ (asi potkáme!!)</p>
   </div>
 
@@ -40,17 +40,17 @@ rod hořců
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
-    <img src="pic/kytky/gen_din1.JPG" alt="G_dinarica" style="width: 100%;">
+    <img src="pic/kytky/gen_din1.JPG" alt="G_dinarica" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Gentiana dinarica ‒ květ</p>
   </div>
 
   <div style="flex: 1;">
-    <img src="pic/kytky/gen_din2.JPG" alt="G_dinarica" style="width: 100%;">
+    <img src="pic/kytky/gen_din2.JPG" alt="G_dinarica" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Gentiana dinarica ‒ květy</p>
   </div>
 
   <div style="flex: 1;">
-    <img src="pic/kytky/gen_din3.JPG" alt="G_dinarica" style="width: 100%;">
+    <img src="pic/kytky/gen_din3.JPG" alt="G_dinarica" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Gentiana dinarica ‒ odkvetlá</p>
   </div>
 
@@ -61,7 +61,7 @@ rod hořců
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
-    <img src="pic/kytky/gen_cruc1.JPG" alt="G_cruciata" style="width: 100%;">
+    <img src="pic/kytky/gen_cruc1.JPG" alt="G_cruciata" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Gentiana cruciata</p>
   </div>
 
@@ -72,17 +72,17 @@ rod hořců
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
-    <img src="pic/kytky/gen_pun1.JPG" alt="G_punctata" style="width: 100%;">
+    <img src="pic/kytky/gen_pun1.JPG" alt="G_punctata" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Gentiana punctata</p>
   </div>
 
   <div style="flex: 1;">
-    <img src="pic/kytky/gen_pun2.JPG" alt="G_punctata" style="width: 100%;">
+    <img src="pic/kytky/gen_pun2.JPG" alt="G_punctata" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Gentiana punctata</p>
   </div>
 
   <div style="flex: 1;">
-    <img src="pic/kytky/gen_pun3.JPG" alt="G_punctata" style="width: 100%;">
+    <img src="pic/kytky/gen_pun3.JPG" alt="G_punctata" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Gentiana punctata ‒ květ</p>
   </div>
 
@@ -101,7 +101,7 @@ Všimněte si podlouhlých listů na lodyze.
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
-    <img src="pic/kytky/phyt_orb1.JPG" alt="P_orb" style="width: 100%;">
+    <img src="pic/kytky/phyt_orb1.JPG" alt="P_orb" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Phyteuma orbiculare</p>
   </div>
 
@@ -114,12 +114,12 @@ Tlusťoučký (široký) listy!
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
-    <img src="pic/kytky/phyt_pse1.JPG" alt="P_pse" style="width: 100%;">
+    <img src="pic/kytky/phyt_pse1.JPG" alt="P_pse" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Phyteuma pseudorbiculare</p>
   </div>
 
   <div style="flex: 1;">
-    <img src="pic/kytky/phyt_pse2.JPG" alt="P_pse" style="width: 100%;">
+    <img src="pic/kytky/phyt_pse2.JPG" alt="P_pse" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Phyteuma pseudorbiculare</p>
   </div>
 
@@ -138,7 +138,7 @@ rod prvosenek
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
-    <img src="pic/kytky/prim_kit1.JPG" alt="P_kit" style="width: 100%;">
+    <img src="pic/kytky/prim_kit1.JPG" alt="P_kit" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Primula kitaibeliana</p>
   </div>
 
@@ -155,12 +155,12 @@ rod silenek
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
-    <img src="pic/kytky/sil_aca1.JPG" alt="S_aca" style="width: 100%;">
+    <img src="pic/kytky/sil_aca1.JPG" alt="S_aca" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Silene acaulis</p>
   </div>
 
   <div style="flex: 1;">
-    <img src="pic/kytky/sil_aca2.JPG" alt="S_aca" style="width: 100%;">
+    <img src="pic/kytky/sil_aca2.JPG" alt="S_aca" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Silene acaulis ‒ kvete!</p>
   </div>
 
@@ -177,17 +177,17 @@ rod lomikamenů
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
-    <img src="pic/kytky/sax_blav1.JPG" alt="S_blavii" style="width: 100%;">
+    <img src="pic/kytky/sax_blav1.JPG" alt="S_blavii" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Saxifraga blavii ‒ habitus</p>
   </div>
 
   <div style="flex: 1;">
-    <img src="pic/kytky/sax_blav2.JPG" alt="S_blavii" style="width: 100%;">
+    <img src="pic/kytky/sax_blav2.JPG" alt="S_blavii" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Saxifraga blavii</p>
   </div>
 
   <div style="flex: 1;">
-    <img src="pic/kytky/sax_blav3.JPG" alt="S_blavii" style="width: 100%;">
+    <img src="pic/kytky/sax_blav3.JPG" alt="S_blavii" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Saxifraga blavii ‒ růžice!</p>
   </div>
 
@@ -200,7 +200,7 @@ Typicky na kamenných mořích.
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
-    <img src="pic/kytky/sax_glab1.JPG" alt="S_glabella" style="width: 100%;">
+    <img src="pic/kytky/sax_glab1.JPG" alt="S_glabella" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Saxifraga glabella ‒ habitus</p>
   </div>
 
@@ -213,12 +213,12 @@ Nejen vápenec!
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
-    <img src="pic/kytky/sax_mos1.JPG" alt="S_moschata" style="width: 100%;">
+    <img src="pic/kytky/sax_mos1.JPG" alt="S_moschata" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Saxifraga moschata ‒ habitus</p>
   </div>
 
   <div style="flex: 1;">
-    <img src="pic/kytky/sax_mos2.JPG" alt="S_moschata" style="width: 100%;">
+    <img src="pic/kytky/sax_mos2.JPG" alt="S_moschata" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Saxifraga moschata ‒ stanoviště</p>
   </div>
 
@@ -229,12 +229,12 @@ Nejen vápenec!
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
-    <img src="pic/kytky/sax_opo1.JPG" alt="S_oppositifolia" style="width: 100%;">
+    <img src="pic/kytky/sax_opo1.JPG" alt="S_oppositifolia" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Saxifraga oppositifolia ‒ stanoviště</p>
   </div>
 
   <div style="flex: 1;">
-    <img src="pic/kytky/sax_opo2.JPG" alt="S_oppositifolia" style="width: 100%;">
+    <img src="pic/kytky/sax_opo2.JPG" alt="S_oppositifolia" style="width: 100%" loading = "lazy;">
     <p style="font-size: 0.9em; color: gray;">Saxifraga oppositifolia & Silene acaulis</p>
   </div>
 
