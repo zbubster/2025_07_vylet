@@ -9,7 +9,7 @@ Původní záměr pro výlet na Balkán byl sběr dat na moji diplomku. Ačkoli 
 
 rod hořců
 
-# G. tergestina
+### G. tergestina (prioritni)
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
@@ -35,7 +35,7 @@ rod hořců
 
 </div>
 
-# G. dinarica
+### G. dinarica (prioritni)
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
@@ -56,7 +56,7 @@ rod hořců
 
 </div>
 
-# G. cruciata
+### G. cruciata
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
@@ -67,7 +67,7 @@ rod hořců
 
 </div>
 
-# G. punctata
+### G. punctata
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
@@ -94,7 +94,7 @@ rod hořců
 
 rod zvonečníků
 
-# P. orbiculare
+### P. orbiculare
 
 Všimněte si podlouhlých listů na lodyze.
 
@@ -107,7 +107,7 @@ Všimněte si podlouhlých listů na lodyze.
 
 </div>
 
-# P. pseudorbiculare
+### P. pseudorbiculare (prioritni)
 
 Tlusťoučký (široký) listy!
 
@@ -135,6 +135,8 @@ nikoli Prymula
 
 rod prvosenek
 
+### P. kitaibeliana (prioritni)
+
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
   <div style="flex: 1;">
@@ -150,7 +152,7 @@ rod prvosenek
 
 rod silenek
 
-# S. acaulis
+### S. acaulis
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
@@ -172,7 +174,7 @@ rod silenek
 
 rod lomikamenů
 
-# S. blavii
+### S. blavii (prioritni)
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
@@ -193,7 +195,7 @@ rod lomikamenů
 
 </div>
 
-# S. glabella
+### S. glabella (prioritni)
 
 Typicky na kamenných mořích.
 
@@ -206,7 +208,7 @@ Typicky na kamenných mořích.
 
 </div>
 
-# S moschata
+### S moschata
 
 Nejen vápenec! 
 
@@ -224,7 +226,7 @@ Nejen vápenec!
 
 </div>
 
-# S. oppositifolia
+### S. oppositifolia
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center;">
 
